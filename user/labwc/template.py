@@ -21,7 +21,7 @@ license = "GPL-2.0-or-later"
 url = "https://labwc.github.io"
 source = f"https://github.com/labwc/labwc/archive/{pkgver}.tar.gz"
 sha256 = "1810ec55e287708e7a3cd44c726aa887db02480704db82b3d0bd550a6c4bfb76"
-hardening = ["vis", "cfi"]
+hardening = ["vis"]
 
 
 def post_install(self):
